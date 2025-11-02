@@ -12,7 +12,7 @@ export const RollButton = ({ quantity, selectedDice, modifier, isRolling, onRoll
       className={`w-full py-4 rounded-xl font-bold text-lg transition-all transform ${
         isRolling
           ? 'bg-gray-400 cursor-not-allowed'
-          : 'bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 hover:scale-105 shadow-lg hover:shadow-xl'
+          : 'bg-linear-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 hover:scale-105 shadow-lg hover:shadow-xl'
       } text-gray-50`}
     >
       {isRolling ? (
