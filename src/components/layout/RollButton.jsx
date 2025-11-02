@@ -3,7 +3,7 @@ import { Dices } from "lucide-react";
 export const RollButton = ({ quantity, selectedDice, modifier, isRolling, onRoll }) => {
   const buttonText = isRolling 
     ? 'Rolando...' 
-    : `Rolar ${quantity}${selectedDice.toUpperCase()}${modifier !== 0 ? ` ${modifier > 0 ? '+' : ''}${modifier}` : ''}`;
+    : `Rolar ${quantity} ${selectedDice.toUpperCase()} ${modifier !== 0 ? ` ${modifier > 0 ? '+' : ''}${modifier}` : ''}`;
 
   return (
     <button
