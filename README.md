@@ -1,4 +1,4 @@
-# 🎲 RPG Dice Roller
+# 🎲 Roll the dice
 
 Aplicação web para rolagem de dados de RPG com interface intuitiva e histórico de rolagens.
 
