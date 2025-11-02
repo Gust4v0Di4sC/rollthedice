@@ -7,7 +7,7 @@ export default function App() {
   const { history, addRoll, clearHistory } = useRollHistory();
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-indigo-900 to-blue-900 p-6">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-700 to-gray-800 p-6">
       <div className="max-w-4xl mx-auto">
         <Header />
         <RollerPanel onRollComplete={addRoll} />

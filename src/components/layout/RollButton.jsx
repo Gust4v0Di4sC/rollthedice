@@ -13,7 +13,7 @@ export const RollButton = ({ quantity, selectedDice, modifier, isRolling, onRoll
         isRolling
           ? 'bg-gray-400 cursor-not-allowed'
           : 'bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 hover:scale-105 shadow-lg hover:shadow-xl'
-      } text-purple-900`}
+      } text-gray-50`}
     >
       {isRolling ? (
         <span className="flex items-center justify-center gap-2">

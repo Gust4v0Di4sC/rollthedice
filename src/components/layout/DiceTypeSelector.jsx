@@ -11,7 +11,7 @@ export const DiceTypeSelector = ({ selectedDice, onSelectDice, diceTypes }) => {
             onClick={() => onSelectDice(dice.value)}
             className={`py-3 px-2 rounded-lg font-bold transition-all transform hover:scale-105 ${
               selectedDice === dice.value
-                ? 'bg-yellow-400 text-purple-900 shadow-lg'
+                ? 'bg-yellow-400 text-gray-900 shadow-lg'
                 : 'bg-white/20 text-white hover:bg-white/30'
             }`}
           >

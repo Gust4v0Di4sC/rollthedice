@@ -22,7 +22,7 @@ export const HistoryItem = ({ roll }) => {
         {roll.rolls.map((value, idx) => (
           <span
             key={idx}
-            className="px-3 py-1 bg-purple-500/50 rounded-full text-white text-sm font-semibold"
+            className="px-3 py-1 bg-orange-600 rounded-full text-white text-sm font-semibold"
           >
             {value}
           </span>
